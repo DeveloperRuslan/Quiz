@@ -1,0 +1,7 @@
+.nav-link {
+	transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+	color: #ddac0d; /* Измените на любой цвет при наведении */
+}

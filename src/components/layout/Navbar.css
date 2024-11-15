@@ -1,0 +1,30 @@
+.custom-navbar {
+    background: linear-gradient(135deg, #6e7dff, #b3c3ff);
+    /* Дополнительные параметры фона можно добавить: */
+    background-size: cover; /* Для масштабирования изображения */
+    color: white; /* Цвет текста, чтобы он хорошо смотрелся на фоне */
+}
+
+
+.navbar-brand {
+    font-weight: bold; /* Увеличить вес шрифта */
+    font-size: 1.5rem; /* Увеличить размер шрифта */
+}
+
+.nav-link {
+    color: #050505 !important; /* Цвет текста для ссылок */
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* Цвет ссылки при наведении */
+    text-decoration: underline; /* Подчеркивание ссылки при наведении */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* Цвет границы для кнопки */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M0 5h30M0 15h30M0 25h30'/%3E%3C/svg%3E"); 
+}
